@@ -23,6 +23,7 @@ while True:
         case "Edit":
             todo_to_edit = values["todos"][0]
             new_todo = values["todo"]
+
             todos= functions.get_todos()
             index= todos.index(todo_to_edit)
             todos[index]= new_todo
